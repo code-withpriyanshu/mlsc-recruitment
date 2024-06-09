@@ -1,4 +1,4 @@
-# Priyanshu Patel's Projects
+# Description
 
 As a passionate and curious individual from New Delhi, I am always eager to learn and grow in various fields. My dedication and hard work are reflected in my diverse interests and pursuits. I am an avid badminton player, which has taught me the values of discipline, teamwork, and perseverance. These qualities seamlessly translate into my academic and professional endeavors, particularly in the realms of coding and web development.
 
@@ -26,6 +26,8 @@ A financial application for calculating potential returns, profits, and losses o
 
 ### [ThoughtsAloud](https://thoughtaloud.netlify.app)
 A mental health platform offering therapeutic resources, mindfulness exercises, and professional consultations to support mental well-being.
+This was hackathon project for  HACKLIPSE4.O
+https://devfolio.co/projects/thoughtsaloud-7079
 
 ### [Timetable Organizer](https://1b7timetable.netlify.app)
 A comprehensive timetable for 1B7 class students, detailing daily schedules, class times, and subjects for efficient time management.
