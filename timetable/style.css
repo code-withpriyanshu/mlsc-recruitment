@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+}
+.sub{
+    font-size: 100px;
+    text-align: center;
+    color: #ababab;
+    font-family: "Raleway", sans-serif;
+ font-weight: 200;
+}
+.sub:hover{
+    /* font-size: 120px; */
+    text-align: center;
+    color: #494949;
+    transition: all 0.3s;
+    /* transition: all 0.3s; */
+}
+div >h1{
+    font-size: 120px;
+    text-align: center;
+    color: #F54952;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+#special{
+    color: #00343e;
+    color: #F54952;
+}
+
+/* main */
+
+.main{
+    /* border: 1px solid red; */
+    width: 80vw;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    row-gap: 3vw;
+    column-gap: 3vw;
+    flex-wrap: wrap;
+    
+}
+.days{
+    /* border: 1px solid black; */
+    width: fit-content;
+    padding: 35px;
+    height: fit-content;
+    background-color: rgb(196, 87, 87);
+    color: black;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7vw;
+    align-items: center;
+    
+}
+
+.days > h2{
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    color: #03045e;
+}
+.days:hover{
+    transition: all 0.3s;
+    background: black;
+    color: white;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #F54952;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .container::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, #422680 10%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #422680 20%);
+    background-size: 30px 30px; /* Adjust the size of the pattern */
+    animation: moveBackground 16s linear infinite; /* Adjust the animation duration and timing function */
+  }
+  
+  @keyframes moveBackground {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(20%, 20%);
+    }
+  }
+  
+  
+
+
+
+/* content in the box tim location subjec */
+
+li{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    list-style: none;
+    font-family: system-ui;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+}
+
+p{
+    font-size: 25px;
+}
+
